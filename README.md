@@ -1,2 +1,7 @@
 # 11a-2023
-Uzdevums par GitHub
+Uzdevums par GitHub!
+
+
+1. Iepazīties ar informāciju no dokumenta "Versiju parvaldibas riks"
+2. Atkārtot teoriju par objektu zimēšanu ar JS "zimesana"
+3. Sadarboties pie kopīga uzdevuma ar klases biedriem.
