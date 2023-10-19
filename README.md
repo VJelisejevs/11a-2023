@@ -3,5 +3,5 @@ Uzdevums par GitHub!
 
 
 1. Iepazīties ar informāciju no dokumenta "Versiju parvaldibas riks"
-2. Atkārtot teoriju par objektu zimēšanu ar JS "zimesana"
+2. Atkārtot teoriju par objektu zimēšanu ar JS "zimesana" un "9P_07_02_T"
 3. Sadarboties pie kopīga uzdevuma ar klases biedriem.
