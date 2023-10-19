@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<title>1. patstāvīgais darbs</title>
+		<meta charset="utf8"/>
+		<style>
+canvas {
+  background-color: white;}
+body {
+    background-color: Thistle;
+    font-family: "Verdana";}
+		</style>
+	</head>
+	<body>
+<h2>Rotājums</h2>
+<p>
+  <canvas id="laukums" width="500" height="80"></canvas>
+</p>
+		<script>
+var zim = laukums.getContext("2d");
+var x = 0;
+var y = 40;
+var r = 20;
+var a = 28;
+
+while (x < laukums.width - 2 * r) {
+  if (Math.floor(Math.random() * 2) == 1) {
+    rombs();
+    x = x + a;
+  } else {
+    rinkis();
+    x = x + 2 * r;
+  }
+}
+// Rombs
+function rombs() {
+  zim.fillStyle = "LightSlateGray";
+  zim.beginPath();
+  zim.moveTo(x, y);
+  zim.lineTo(x + a / 2, y - a / 2);
+  zim.lineTo(x + a, y);
+  zim.lineTo(x + a / 2, y + a / 2);
+  zim.closePath();
+  zim.fill();
+}
+// Riņķis
+function rinkis() {
+  zim.fillStyle = "Purple";
+  zim.beginPath();
+  zim.arc(x + r, y, r, 0, 2 * Math.PI);
+  zim.fill();
+}
+		</script>
+	</body>
+</html>

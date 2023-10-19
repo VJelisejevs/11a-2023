@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<title>1. vingrinajums</title>
+		<meta charset="utf8"/>
+		<style>
+canvas {
+  background-color: #eee;}
+body {
+    background-color: limegreen;
+    font-family: "Verdana";}
+		</style>
+	</head>
+	<body>
+<h2> Divi ciklu veidi</h2>
+<p>
+  <canvas id="laukums1" width="300" height="300"></canvas>
+  <canvas id="laukums2" width="300" height="300"></canvas>
+</p>
+		<script>
+var x, y, i;
+var zim1 = laukums1.getContext("2d");
+var zim2 = laukums2.getContext("2d");
+var a = 27;
+
+zim1.fillStyle = "lightblue";
+for (i = 0; i < 10; i++) {
+  zim1.beginPath();
+  zim1.arc(a * i + a, a * i + a, 15, 0, 2 * Math.PI);
+  zim1.fill();
+  zim1.stroke();
+}
+zim2.fillStyle = "yellow";
+i = 0;
+while (i < 10) {
+  zim2.beginPath();
+  zim2.arc(a * i + a, a * i + a, 15, 0, 2 * Math.PI);
+  zim2.fill();
+  zim2.stroke();
+  i++;
+}
+		</script>
+	</body>
+</html>

@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<title>2. vingrinājums</title>
+		<meta charset="utf8"/>
+		<style>
+canvas {
+  background-color: #eee;}
+body {
+    background-color: limegreen;
+    font-family: "Verdana";}
+		</style>
+	</head>
+	<body>
+<h2> Divi veidi četri cikli</h2>
+<p> <canvas id="laukums1" width="500" height="80"></canvas> </p>
+<p> <canvas id="laukums2" width="500" height="80"></canvas> </p>
+<p> <canvas id="laukums3" width="500" height="80"></canvas> </p>
+<p> <canvas id="laukums4" width="500" height="80"></canvas> </p>
+		<script>
+var x, i, skaits;
+var zim1 = laukums1.getContext("2d");
+var zim2 = laukums2.getContext("2d");
+var zim3 = laukums3.getContext("2d");
+var zim4 = laukums4.getContext("2d");
+var y = 40;
+var r = 25;
+// Pirmā rinda
+skaits = Math.floor(laukums1.width / 2 * r);
+zim1.fillStyle = "lightblue";
+for (i = 0; i < skaits; i++) {
+  x = i * 2 * r + r;
+  zim1.beginPath();
+  zim1.arc(x , y, r, 0, 2 * Math.PI);
+  zim1.fill();
+  zim1.stroke();
+}
+// Otrā rinda
+zim2.fillStyle = "yellow";
+x = r;
+while (x <= laukums2.width + r) {
+  zim2.beginPath();
+  zim2.arc(x , y, r, 0, 2 * Math.PI);
+  zim2.fill();
+  zim2.stroke();
+  x = x + 2 * r;
+}
+// Trešā rinda
+skaits = Math.floor(laukums3.width / 2 * r);
+zim3.fillStyle = "MediumOrchid";
+for(i = 0; i < skaits; i++) {
+  x = i * 2 * r + r;
+  zim3.beginPath();
+  zim3.arc(x , y, r, 0, 2 * Math.PI);
+  zim3.fill();
+  zim3.stroke();
+  
+}
+// Ceturtā rinda
+zim4.fillStyle = "orange";
+x=r;
+while(x <= laukums4.width + r) {
+  zim4.beginPath();
+  zim4.arc(x , y, r, 0, 2 * Math.PI);
+  zim4.fill();
+  zim4.stroke();
+   x = x + 2 * r
+}
+		</script>
+	</body>
+</html>
