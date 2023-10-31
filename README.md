@@ -10,3 +10,6 @@ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
 Es ir šeit parakstījies.
 Jānis Žagars.
+
+
+I'm just Ken, were i see love she sees a friend, what will it take for here to see the men that i have become..
