@@ -13,3 +13,4 @@ Jānis Žagars.
 
 
 I'm just Ken, where i see love she sees a friend, what will it take for here to see the men that i have become..
+draugi, nav labi
