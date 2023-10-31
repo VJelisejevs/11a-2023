@@ -1,6 +1,6 @@
 # 11a-2023
 Uzdevums par GitHub!
-
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
 1. Iepazīties ar informāciju no dokumenta "Versiju parvaldibas riks"
 2. Atkārtot teoriju par objektu zimēšanu ar JS "zimesana" un "9P_07_02_T"
